@@ -1,0 +1,7 @@
+yt-dlp
+requests
+openai-whisper
+transformers
+ollama
+language-tool-python
+torch
