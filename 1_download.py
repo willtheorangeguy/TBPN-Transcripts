@@ -28,7 +28,6 @@ def download_videos(playlist_url):
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         ydl.download(playlist_url)
 
-
 if __name__ == "__main__":
     playlist = "https://www.youtube.com/playlist?list=PLBV_0ax_G8bpVbF8ndXETB2S2obcwF8gT"
     download_videos(playlist)
